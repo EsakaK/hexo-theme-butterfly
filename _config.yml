@@ -78,7 +78,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/head_0.jpg
+favicon: /img/snow.png
 
 # Avatar (頭像)
 avatar:
@@ -497,7 +497,7 @@ tag_ui: # 留空或 index
 background: url(/img/back.jpeg)
 
 # Footer Background
-footer_bg: linear-gradient( 135deg, rgb(0,180,130) 10%, rgb(10,20,250) 100%)
+footer_bg: linear-gradient( 135deg, rgb(109, 214, 218) 50%, rgb(235, 86, 70) 50%)
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom: 
