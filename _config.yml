@@ -4,15 +4,16 @@
 
 menu:
   首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  功能列表||fas fa-list:
+  按类索引||fas fa-list:
+    时间轴: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+  娱乐||fas fa-list:
     音乐: /music/ || fas fa-music
     电影: /movies/ || fas fa-video
     照片: /Gallery/ || fas fa-images
-  链接: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  #链接: /link/ || fas fa-link
+  #关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -38,7 +39,8 @@ copy:
 social:
   fab fa-github: https://github.com/EsakaK || Github
   fas fa-envelope: mailto:togelbian@gmail.com || Email
-  fas fa-bilibili: https://space.bilibili.com/65529295/ || bilibili
+  fa-brands fa-bilibili: https://space.bilibili.com/65529295/ || bilibili
+  fa-brands fa-qq: https://esakak.gitee.io/qq/index.html || QQ
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -633,10 +635,11 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/EsakaK
   card_announcement:
     enable: true
-    content: 博客正在构建，暂无文章
+    content: 第一篇文章已经发布
+    sort_order: 
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -770,14 +773,14 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
-    # - xxxx
+    - /music/
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -792,12 +795,12 @@ snackbar:
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
-  enable: false
+  enable: true
   field: site # site/post
 
 # Lazyload (圖片懶加載)
@@ -834,6 +837,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+    - <div class="aplayer no-destroy" data-id="1403858538" data-server="netease" data-type="song" data-fixed="true" data-autoplay="true" data-loop="none" data-volume="0.5" data-preload="auto"> </div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
