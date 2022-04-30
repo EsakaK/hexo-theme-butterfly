@@ -183,8 +183,8 @@ toc:
   post: true
   page: false
   number: true
-  expand: false
-  style_simple: false # for post
+  expand: true
+  style_simple: true # for post
 
 post_copyright:
   enable: true
@@ -571,7 +571,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: # '\f0c1'
   title-prefix-icon-color: # '#F47466'
