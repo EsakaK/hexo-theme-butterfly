@@ -67,7 +67,7 @@ local_search:
 
 # MathJax
 mathjax:
-  enable: false
+  enable: true
   per_page: false
 
 # KaTeX
@@ -626,7 +626,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   archives: true
   card_author:
     enable: true
@@ -638,7 +638,7 @@ aside:
       link: https://github.com/EsakaK
   card_announcement:
     enable: true
-    content: 第一篇文章已经发布
+    content: 新的文章已发布
     sort_order: 
   card_recent_post:
     enable: true
@@ -835,9 +835,12 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    # <script src="https://wow.techbrood.com/libs/jquery/jquery-1.11.1.min.js"></script>
+    # <script src="js/snow.js"></script>
+
   bottom:
     # - <script src="xxxx"></script>
-    - <div class="aplayer no-destroy" data-id="1403858538" data-server="netease" data-type="song" data-fixed="true" data-autoplay="true" data-loop="none" data-volume="0.5" data-preload="auto"> </div>
+    - <div class="aplayer no-destroy" data-id="1403858538" data-server="netease" data-type="song" data-fixed="true" data-autoplay="true" data-loop="true" data-volume="0.5" data-preload="auto"> </div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
