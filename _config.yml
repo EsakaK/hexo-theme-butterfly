@@ -834,7 +834,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+  - <link rel="stylesheet" href="/my_css/my_style.css">
     # <script src="https://wow.techbrood.com/libs/jquery/jquery-1.11.1.min.js"></script>
     # <script src="js/snow.js"></script>
 
