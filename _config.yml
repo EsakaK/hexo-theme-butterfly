@@ -40,7 +40,7 @@ social:
   fab fa-github: https://github.com/EsakaK || Github
   fas fa-envelope: mailto:togelbian@gmail.com || Email
   fa-brands fa-bilibili: https://space.bilibili.com/65529295/ || bilibili
-  fa-brands fa-qq: https://esakak.gitee.io/qq/index.html || QQ
+  fa-brands fa-qq: qq/index.html || QQ
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
